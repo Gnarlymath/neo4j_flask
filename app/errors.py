@@ -1,6 +1,8 @@
 from app import app
 from flask import make_response, jsonify
 
+# Todo
+# Add more error responses
 
 err404 = {"404":"aw yeah, that site is absolutely not found"}
 err405 = {"405":" Wrong request type amigo"}
